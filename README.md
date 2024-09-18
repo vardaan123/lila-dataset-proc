@@ -9,6 +9,8 @@ Download `lila-taxonomy-mapping_release.csv` from https://lila.science/public/li
 ```
 python canonicalize_lila_dataset.py
 ```
-*Output*:
+**Output**:
+
 `category_to_label_map`: mapping from original label to canonical taxonomic level scientific name (species, genus, etc.)
+
 `label_to_id_map`: mapping from all category labels to label canonical ID.

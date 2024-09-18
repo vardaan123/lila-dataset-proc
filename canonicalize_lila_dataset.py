@@ -8,7 +8,7 @@ from collections import Counter
 
 if __name__=='__main__':
     parser = argparse.ArgumentParser()
-    parser.add_argument('--taxonomy-file', type=str, default='../camera_trap_datasets/lila-taxonomy-mapping_release.csv')
+    parser.add_argument('--taxonomy-file', type=str, default='lila-taxonomy-mapping_release.csv')
     
     args = parser.parse_args()
 
